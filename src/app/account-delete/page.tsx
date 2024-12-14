@@ -1,4 +1,4 @@
-import DeleteAccount from "@/component/DeleteAccount";
+import DeleteAccount from "@/app/components/DeleteAccount";
 
 
 const page = () => {
