@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: ['image.lexica.art','firebasestorage.googleapis.com'], // Add your hostname here
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
