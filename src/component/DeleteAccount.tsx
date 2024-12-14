@@ -12,7 +12,7 @@ export default function DeleteAccount() {
   useEffect(() => {
     setIsClient(true);
   }, []);
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     const userResponse = window.confirm(
       "Are you sure you want to delete your account?"
