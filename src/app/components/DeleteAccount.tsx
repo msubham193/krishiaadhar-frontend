@@ -23,7 +23,7 @@ export default function DeleteAccount() {
 
     setLoading(true); // Start loading
     try {
-      const response = await fetch("/api/farmer/account/delete", {
+      const response = await fetch("http://47.247.12.114:3001/api/farmer/account/delete", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
